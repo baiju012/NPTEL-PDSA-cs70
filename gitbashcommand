@@ -1,0 +1,31 @@
+Github Commands:
+
+git config --global user.name "shivam18"
+
+git config --global user.email "shivam@gmail.com"
+
+git config --global user.password "123456789"
+
+git config --list --show-origin      
+
+git init
+
+git status
+
+staging area:- git add -A
+
+git status
+
+Committing files to local git:- git commit -m "Submitting all the files"
+
+git status
+
+Add the remote git repo to local:-
+
+git remote add origin https://github.com/shivam1/IBM-FDP-CAD.git
+
+Adding has been successful or not by using:- git remote -v
+
+Pushing files to github: git branch -m main
+
+git push -u origin main
