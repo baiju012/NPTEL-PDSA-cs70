@@ -24,15 +24,9 @@ def findPair(nums, target):
     print('Pair not found')
  
  
-if __name__ == '__main__':
- 
-    nums = [8, 7, 2, 5, 3, 1]
-    target = 10
- 
-    findPair(nums, target)
-
-Class main
-    {
+JAVA
+class Main
+{
     // Naive method to find a pair in an array with a given sum
     public static void findPair(int[] nums, int target)
     {
@@ -54,12 +48,3 @@ Class main
         // we reach here if the pair is not found
         System.out.println("Pair not found");
     }
- 
-    public static void main (String[] args)
-    {
-        int[] nums = { 8, 7, 2, 5, 3, 1 };
-        int target = 10;
- 
-        findPair(nums, target);
-    }
-}
